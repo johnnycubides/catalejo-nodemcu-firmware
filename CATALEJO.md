@@ -3,7 +3,9 @@
 Nodemcu build firmware from git
 
 ```bash
+mkdir -p ~/projects && cd ~/projects
 git clone git@github.com:johnnycubides/catalejo-nodemcu-firmware.git
+cd catalejo-nodemcu-firmware
 git submodule init
 git submodule update --recursive
 ```
@@ -14,6 +16,7 @@ BUILD OPCTIONS
 https://nodemcu.readthedocs.io/en/release/build/#build-options
 
 ```bash
+sudo apt install python3-serial
 make
 ```
 
