@@ -38,3 +38,16 @@ picocom /dev/ttyUSB0 -b 115200
 ```bash
 ln -sr ./luac.cross ~/.local/bin/
 ```
+
+## esptool
+
+Para instalar esptool se recomienda hacer uso de conda
+y desde conda instalar esptool, ejemplo:
+
+```
+pip install click esptool
+
+```
+
+Observación: crear una variable de entorno en conda llamada nodemcu para mayor
+facilidad.
